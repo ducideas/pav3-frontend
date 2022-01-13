@@ -31,7 +31,7 @@ class PersonalInfo extends React.Component<Props, State> {
         </div>
         
         <div className="col-lg-6">
-          <label htmlFor="firstname">First Name</label>
+          <label htmlFor="firstname" className="required">First Name</label>
           <input
             className="form-control"
             type="text"
@@ -44,7 +44,7 @@ class PersonalInfo extends React.Component<Props, State> {
           
         </div>
         <div className="col-lg-6">
-          <label htmlFor="lastname">Last Name</label>
+          <label htmlFor="lastname" className="required">Last Name</label>
           <input
             className="form-control"
             type="text"
@@ -56,7 +56,7 @@ class PersonalInfo extends React.Component<Props, State> {
           />
         </div>
         <div className="col-lg-6">
-          <label htmlFor="dob">DOB</label>
+          <label htmlFor="dob" className="required">DOB</label>
           <input
             className="form-control"
             type="date"
@@ -68,7 +68,7 @@ class PersonalInfo extends React.Component<Props, State> {
           />
         </div>
         <div className="col-lg-6">
-          <label htmlFor="gender"></label>
+          <label htmlFor="gender" className="required"></label>
             Gender
             <select
               className="form-select"
@@ -86,7 +86,7 @@ class PersonalInfo extends React.Component<Props, State> {
             </select>
         </div>
         <div className="col-lg-6">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email" className="required">Email</label>
           <input
             className="form-control"
             name="Email"
@@ -98,7 +98,7 @@ class PersonalInfo extends React.Component<Props, State> {
           />
         </div>
         <div className="col-lg-6">
-          <label htmlFor="phonenumber">Phone Number</label>
+          <label htmlFor="phonenumber" className="required">Phone Number</label>
           <input
             className="form-control"
             type="text"
@@ -110,7 +110,7 @@ class PersonalInfo extends React.Component<Props, State> {
           />
         </div>
         <div className="col-lg-6">
-          <label htmlFor="address">Address</label>
+          <label htmlFor="address" className="required">Address</label>
           <input
             className="form-control"
             type="text"
@@ -122,7 +122,7 @@ class PersonalInfo extends React.Component<Props, State> {
           />
         </div>
         <div className="col-lg-6">
-          <label htmlFor="city">City</label>
+          <label htmlFor="city" className="required">City</label>
           <input
             className="form-control"
             type="text"

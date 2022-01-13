@@ -45,3 +45,7 @@ table th{
 table td{
     text-align: center;
 }
+.required:after {
+    content:" *";
+    color: red;
+  }
