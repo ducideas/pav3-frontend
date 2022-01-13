@@ -69,7 +69,8 @@ class ListPatient extends React.Component<Props,State>{
           firstName:'',
           lastName: '',
           dob: ''
-        }
+        },
+        page:1
       })
     }
     switchPage = (page: number) => {
